@@ -41,7 +41,7 @@
 |No capital expenditures to scale up|Organizations have complete control over resources and security|Provides the most flexibility|
 |Applications can be quickly provisioned and deprovisioned|Data is not collocated with other organizations’ data|Organizations determine where to run their applications|
 |Organizations pay only for what they use|Hardware must be purchased for startup and maintenance|Organizations control security, compliance, or legal requirements|
-|Organizations don’t have complete control over resources and security|Organizations are responsible for hardware maintenance and updates|
+|Organization   s don’t have complete control over resources and security|Organizations are responsible for hardware maintenance and updates|
 
 
 ### Multi Cloud
@@ -57,4 +57,36 @@
 
 ### Azure VMware Solution 
 * What if you’re already established with VMware in a private cloud environment but want to migrate to a public or hybrid cloud? Azure VMware Solution lets you run your VMware workloads in Azure with seamless integration and scalability
-  
+---
+
+## Describe Cost Management In Azure
+
+* Azure shifts development costs from the capital expense (CapEx) of building out and maintaining infrastructure and facilities to an operational expense (OpEx) of renting infrastructure as you need it,  whether it’s compute, storage, networking
+
+* OpEx Cost Can be impacted by many many factors
+- Resource type
+- Consumption
+- Maintenance
+- Geography
+- Subscription type
+- Azure Marketplace
+
+**RESOURCE TYPE**
+* A number of factors influence the cost of Azure resources. The type of resources, the settings for the resource,
+*  the Azure region will all have an impact on how much a resource costs
+*  When you provision an Azure resource, Azure creates metered instances for that resource.
+*  The meters track the resources' usage and generate a usage record that is used to calculate your bill.
+
+* With a virtual machine (VM), you may have to consider licensing for the operating system or other software
+* Just like with storage, provisioning the same virtual machine in different regions may result in different costs
+
+**CONSUMPTION**
+* Pay-as-you-go has been a consistent theme throughout, and that’s the cloud payment model where you pay for the resources that you use during a billing cycle
+* If you use more compute this cycle, you pay more  If you use less in the current cycle, you pay less. It’s a straight forward pricing mechanism that allows for maximum flexibility.
+* Azure also offers the ability to commit to using a set amount of cloud resources in advance and receiving discounts on those “reserved” resources
+* Many services, including databases, compute, and storage all provide the option to commit to a level of use and receive a discount,
+* When you reserve capacity, you’re committing to using and paying for a certain amount of Azure resources during a given period (typically one or three years)
+
+## ompare the Pricing and Total Cost of Ownership calculators
+* pricing calculator and the total cost of ownership (TCO) calculator are two calculators that help you understand potential Azure expenses. 
+* Both calculators are accessible from the internet, and both calculators allow you to build out a configuration.
