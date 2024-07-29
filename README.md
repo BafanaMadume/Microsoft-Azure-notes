@@ -188,6 +188,19 @@ One way to organize related resources is to place them in their own subscription
  * **Billing boundary**: This subscription type determines how an Azure account is billed for using Azure. You can create multiple subscriptions for different types of billing requirements. Azure generates separate billing reports and invoices for each subscription so that you can organize and manage.costs.
  * **Access control boundary**: Azure applies access-management policies at the subscription level, and you can create separate subscriptions to reflect different organizational structures. An example is that within a business, you have different departments to which you apply distinct Azure subscription policies. This billing model allows you to manage and control access to the resources that users provision with specific subscriptions.
 
-#### CREATE ADDITIONAL AZURE SUBSCRIPTIONS
+---
+---
 
-* 
+## MICROSOFT AZUZE DATA FUNDAMENTALS: EXPLORE CORE DATA CONCEPTS
+* Data is the foundation on which all software is built. By learning about common data formats, workloads, roles, and services,
+* You can classify data as structured, semi-structured, or unstructured.
+
+### STRUCTURED DATA
+* Structured data is data that adheres to a fixed schema, so all of the data has the same fields or properties. Most commonly, the schema for structured data entities is tabular , the data is represented in one or more tables that consist of rows to represent each instance of a data entity, and columns to represent attributes of the entity
+* Structured data is often stored in a database in which multiple tables can reference one another by using key values in a relational model;
+
+### SEMI-STRUCTURED DATA
+* Semi-structured data is information that has some structure, but which allows for some variation between entity instances. One common format for semi-structured data is JavaScript Object Notation (JSON).
+
+### UNSTRUCTURED DATA
+* Not all data is structured or even semi-structured. For example, documents, images, audio and video data, and binary files might not have a specific structure. This kind of data is referred to as unstructured data.
