@@ -168,3 +168,26 @@ One way to organize related resources is to place them in their own subscription
 - **Innovate on trust**: Rely on trusted technology from a partner who's dedicated to security and responsibility.
 
 
+## DESCRIBE AZURE MANAGEMENt INFRASTRUCTURE
+
+* The management infrastructure includes Azure resources and resource groups, subscriptions, and accounts.
+
+**Azure Resources and resource groups**
+
+* A resource is the basic building block of Azure. Anything you create, provision, deploy, etc. is a resource. Virtual Machines (VMs), virtual networks, databases, cognitive services,
+* Resource groups are simply groupings of resources. When you create a resource, you’re required to place it into a resource group. While a resource group can contain many resources, a single resource can only be in one resource group at a time.
+*  Some resources may be moved between resource groups, but when you move a resource to a new group, it will no longer be associated with the former group.
+*  Resource groups provide a convenient way to group resources together.. When you apply an action to a resource group, that action will apply to all the resources within the resource group.If you delete a resource group, all the resources will be deleted.
+
+#### AZURE SUBSCRIPTIONS
+
+* A subscription provides you with authenticated and authorized access to Azure products and services,An Azure subscription links to an Azure account, which is an identity in Microsoft Entra ID or in a directory that Microsoft Entra ID trusts.
+
+ There are **two types of subscription**boundaries that you can use:
+
+ * **Billing boundary**: This subscription type determines how an Azure account is billed for using Azure. You can create multiple subscriptions for different types of billing requirements. Azure generates separate billing reports and invoices for each subscription so that you can organize and manage.costs.
+ * **Access control boundary**: Azure applies access-management policies at the subscription level, and you can create separate subscriptions to reflect different organizational structures. An example is that within a business, you have different departments to which you apply distinct Azure subscription policies. This billing model allows you to manage and control access to the resources that users provision with specific subscriptions.
+
+#### CREATE ADDITIONAL AZURE SUBSCRIPTIONS
+
+* 
