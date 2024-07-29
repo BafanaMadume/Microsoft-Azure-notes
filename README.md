@@ -90,3 +90,81 @@
 ## ompare the Pricing and Total Cost of Ownership calculators
 * pricing calculator and the total cost of ownership (TCO) calculator are two calculators that help you understand potential Azure expenses. 
 * Both calculators are accessible from the internet, and both calculators allow you to build out a configuration.
+
+### Define Your Requirements
+
+* For a basic web application hosted in your datacenter, you might run a configuration similar to the following.An ASP.NET web application that runs on Windows
+* The web application provides information about product inventory and pricing.
+*  There are two virtual machines that are connected through a central load balancer.
+
+* The web application connects to a SQL Server database that holds inventory and pricing information.
+
+**To Migrate to Azure One might**
+* Use Azure Virtual Machines instances, similar to the virtual machines used in your datacenter.
+* Use Azure Application Gateway for load balancing.
+* Use Azure SQL Database to hold inventory and pricing information.
+
+**Basic facts and requirements**
+* The application is used internally. It's not accessible to customers.
+* This application doesn't require a massive amount of computing power.
+* The virtual machines and the database run all the time (730 hours per month).
+* The network processes about 1 TB of data per month.
+* The database doesn't need to be configured for high-performance workloads and requires no more than 32 GB of storage.
+
+
+### DESCRIBE THE MICROSOFT COST MANAGEMENT TOOL
+
+**What is cost Management**
+
+* Cost Management provides the ability to quickly check Azure resource costs, create alerts based on resource spend, and create budgets that can be used to automate management of resources.
+* Cost analysis is a subset of Cost Management that provides a quick visual for your Azure costs
+* Using cost analysis, you can quickly view the total cost in a variety of different ways, including by billing cycle, region, resource,
+* You can view aggregated costs by organization to understand where costs are accrued and to identify spending trends.
+* And you can see accumulated costs over time to estimate monthly, quarterly, or even yearly cost trends against a budget.
+
+**Cost Alerts**
+* Budget alerts
+* Credit alerts
+* Department spending quota alerts.
+
+
+#### Budget Alerts
+
+* Budget alerts notify you when spending, based on usage or cost, reaches or exceeds the amount defined in the alert condition of the budget Cost Management budgets are created using the Azure portal or the Azure Consumption API.
+* In the Azure portal, budgets are defined by cost Budgets are defined by cost or by consumption usage when using the Azure Consumption API.Budget alerts support both cost-based and usage-based budgets. Budget alerts are generated automatically whenever the budget alert conditions are met
+* Whenever an alert is generated, it appears in cost alerts. An alert email is also sent to the people in the alert recipients list of the budget.
+
+#### Credit alerts
+* Credit alerts notify you when your Azure credit monetary commitments are consumed. Monetary commitments are for organizations with Enterprise Agreements (EAs).
+* Credit alerts are generated automatically at 90% and at 100% of your Azure credit balance. Whenever an alert is generated, it's reflected in cost alerts, and in the email sent to the account owners.
+
+#### Department Spending Quota alerts
+
+* Department spending quota alerts notify you when department spending reaches a fixed threshold of the quota.
+
+
+### Describe the Purpose of Tags
+
+One way to organize related resources is to place them in their own subscriptions. You can also use resource groups to manage related resources. Resource tags are another way to organize resources.
+* Tags provide extra information, or metadata, about your resources.
+
+- **Resource management** Tags enable you to locate and act on resources that are associated with specific workloads, environments, business units, and owners.
+- **Cost management and optimization Tags** enable you to group resources so that you can report on costs, allocate internal cost centers, track budgets, and forecast estimated cost.
+- **Operations management Tags** enable you to group resources according to how critical their availability is to your business. This grouping helps you formulate service-level agreements (SLAs). An SLA is an uptime or performance guarantee between you and your users.
+- **Security** Tags enable you to classify data by its security level, such as public or confidential.
+-** Governance and regulatory compliance** Tags enable you to identify resources that align with governance or regulatory compliance requirements, such as ISO 27001. Tags can also be part of your standards enforcement efforts. For example, you might require that all resources be tagged with an owner or department name.
+- **Workload optimization and automation Tags **can help you visualize all of the resources that participate in complex deployments. For example, you might tag a resource with its associated workload or application name and use software such as Azure DevOps to perform automated tasks on those resources.
+
+* You can add, modify, or delete resource tags through Windows PowerShell, the Azure CLI, Azure Resource Manager templates, the REST API, or the Azure portal.You can use Azure Policy to enforce tagging rules and conventions.
+
+# Describe The Core Architectural components of Azure
+
+**What is azure**
+* Azure is a continually expanding set of cloud services that help you meet current and future business challenges. Azure gives you the freedom to build, manage, and deploy applications on a massive global network using your favorite tools and frameworks.
+
+* Azure Offers Limitless innovation. Build intelligent apps and solutions with advanced technology, tools, and services to take your business to the next level.
+- **Bring ideas to life**: Build on a trusted platform to advance your organization with industry-leading AI and cloud services.
+- **Seamlessly unify**: Efficiently manage all your infrastructure, data, analytics, and AI solutions across an integrated platform.
+- **Innovate on trust**: Rely on trusted technology from a partner who's dedicated to security and responsibility.
+
+
